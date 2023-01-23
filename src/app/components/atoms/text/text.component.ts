@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-text',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./text.component.css']
 })
 export class TextComponent {
+
+  @Input() textvalue: string = "";
+  @Input() styleclass: string = "";
 
 }
