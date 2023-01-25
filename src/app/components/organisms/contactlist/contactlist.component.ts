@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./contactlist.component.css']
 })
 export class ContactlistComponent {
-  fakeArray = new Array(8);
+  fakeArray = new Array(35);
 }

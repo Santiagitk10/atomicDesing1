@@ -3,6 +3,7 @@
     background-color: lightgray;
     min-width: 160px;
     padding: 10px;
+    padding-right: 0;
 }
 
 .buttonIconWrapper {

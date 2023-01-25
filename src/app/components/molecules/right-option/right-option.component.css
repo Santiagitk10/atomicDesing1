@@ -3,6 +3,7 @@
     justify-content: right;
     background-color: lightgray;
     padding: 10px;
+    padding-left: 0;
     height: 68px;
 }
 
@@ -21,4 +22,8 @@
 
 app-photo {
     margin-right: 30px;
+}
+
+app-photo {
+    margin-left: 10px;
 }

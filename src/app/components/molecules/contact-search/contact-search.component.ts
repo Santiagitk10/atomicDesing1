@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact-search.component.css']
 })
 export class ContactSearchComponent {
-
+  printconsole(){
+    console.log("click");
+  }
 }

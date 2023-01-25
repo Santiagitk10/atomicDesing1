@@ -5,6 +5,7 @@ import { LeftOptionComponent } from './left-option/left-option.component';
 import { RightOptionComponent } from './right-option/right-option.component';
 import { ContactSearchComponent } from './contact-search/contact-search.component';
 import { ChatboxComponent } from './chatbox/chatbox.component';
+import { MessageComponent } from './message/message.component';
 
 
 
@@ -13,13 +14,15 @@ import { ChatboxComponent } from './chatbox/chatbox.component';
         LeftOptionComponent,
         RightOptionComponent,
         ContactSearchComponent,
-        ChatboxComponent
+        ChatboxComponent,
+        MessageComponent
     ],
     exports: [
         LeftOptionComponent,
         RightOptionComponent,
         ContactSearchComponent,
-        ChatboxComponent
+        ChatboxComponent,
+        MessageComponent
     ],
     imports: [
         CommonModule,
