@@ -1,7 +1,6 @@
 .moleculeStyle {
     display: flex;
     background-color: lightgray;
-    width: 30%;
     min-width: 160px;
     padding: 10px;
 }

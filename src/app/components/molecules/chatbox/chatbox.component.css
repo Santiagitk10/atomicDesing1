@@ -1,0 +1,10 @@
+.chatbox-container {
+    background-color: lightgray;
+}
+
+
+
+app-input {
+    display: inline-block;
+    width: 88%;
+}

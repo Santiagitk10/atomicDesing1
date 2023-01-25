@@ -4,4 +4,10 @@
 
 .userName {
     font-weight: 700;
+    font-size: 0.8em;
+}
+
+.message {
+    font-weight: 100;
+    font-size: 0.6em;
 }
