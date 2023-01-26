@@ -1,7 +1,15 @@
-<app-input iconClass="fa-solid fa-magnifying-glass" placeholder="Search Contact"></app-input>
+<!-- <app-input iconClass="fa-solid fa-magnifying-glass" placeholder="Search Contact"></app-input>
 <div class="contactlist-container">
     <div *ngFor="let i of fakeArray">
         <app-contact-search></app-contact-search>
+    </div>
+</div> -->
+
+
+<app-input iconClass="fa-solid fa-magnifying-glass" placeholder="Search Contact"></app-input>
+<div class="contactlist-container">
+    <div *ngFor="let contact of contacts">
+        <app-contact-search [contact]="contact" (selectedContact)="assignSelectedContact($event)"></app-contact-search>
     </div>
 </div>
 

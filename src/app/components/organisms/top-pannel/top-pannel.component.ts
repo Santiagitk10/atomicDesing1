@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Contact } from 'src/app/models/contact';
 
 @Component({
   selector: 'app-top-pannel',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./top-pannel.component.css']
 })
 export class TopPannelComponent {
-
+  @Input() selectedContact: Contact;
 }

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Contact } from 'src/app/models/contact';
 
 @Component({
   selector: 'app-right-option',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./right-option.component.css']
 })
 export class RightOptionComponent {
-
+  @Input() selectedContact: Contact;
 }

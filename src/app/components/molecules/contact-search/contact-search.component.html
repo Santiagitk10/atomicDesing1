@@ -1,4 +1,4 @@
-<div class="moleculeStyle" (click)="printconsole()">
+<!-- <div class="moleculeStyle" (click)="printconsole()">
     <div class="bottonNameWrapper">
         <app-photo photoUrl = "assets/images/PhotoChat.PNG"></app-photo>
         <div class="text-div">
@@ -8,5 +8,19 @@
     </div>
     <div class="hourWrapper">
         <app-text textvalue= "20:47" styleclass="hourclass"></app-text>
+    </div>
+</div> -->
+
+
+<div class="moleculeStyle" (click)="bringContactData(contact)">
+    <div class="bottonNameWrapper">
+        <app-photo photoUrl = {{contact.photo}}></app-photo>
+        <div class="text-div">
+            <app-text textvalue= {{contact.name}} styleclass="userName"></app-text>
+            <app-text textvalue= {{contact.lastMessage}} styleclass="message"></app-text>
+        </div>
+    </div>
+    <div class="hourWrapper">
+        <app-text textvalue= {{contact.hourLastMessage}} styleclass="hourclass"></app-text>
     </div>
 </div>

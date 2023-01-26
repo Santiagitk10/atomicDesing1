@@ -10,6 +10,7 @@ import { LeftOptionComponent } from './components/molecules/left-option/left-opt
 import { MoleculesModule } from './components/molecules/molecules.module';
 import { OrganismsModule } from './components/organisms/organisms.module';
 import { PageComponent } from './pages/page/page.component';
+import { DataService } from './services/data.service';
 
 
 
@@ -26,7 +27,7 @@ import { PageComponent } from './pages/page/page.component';
     OrganismsModule
 
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

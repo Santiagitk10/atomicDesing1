@@ -1,5 +1,11 @@
 <div class="moleculeStyle">
-    <div class="bottonNameWrapper">
+
+    <div class="bottonNameWrapper" *ngIf="selectedContact != null">
+        <app-photo photoUrl = {{selectedContact.photo}}></app-photo>
+        <app-text textvalue= {{selectedContact.name}} styleclass="userName"></app-text>
+    </div>
+
+    <div class="bottonNameWrapper" *ngIf="selectedContact == null">
         <app-photo photoUrl = "assets/images/PhotoChat.PNG"></app-photo>
         <app-text textvalue= "Santiago Sierra" styleclass="userName"></app-text>
     </div>

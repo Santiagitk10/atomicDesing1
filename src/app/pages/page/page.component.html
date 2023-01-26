@@ -1,7 +1,7 @@
-<app-top-pannel></app-top-pannel>
+<app-top-pannel [selectedContact]="selectedContact"></app-top-pannel>
 <div class="row">
     <div class="col-4">
-        <app-contactlist></app-contactlist>
+        <app-contactlist [contacts]="contacts" (selectedContact)="storeSelectedContact($event)"></app-contactlist>
     </div>
     <div class="col-8">
         <app-chatfeed></app-chatfeed>
